@@ -38,10 +38,9 @@ const columns = [
 const useStyles = makeStyles({
     root: {
         width: '100%',
-        marginTop:20,
     },
     container: {
-       height:window.innerWidth>380?window.innerHeight-100:window.innerHeight-120
+       height: window.innerHeight-200
     },
 });
 

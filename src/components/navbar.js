@@ -173,7 +173,7 @@ export default function Navbar() {
     return (
         <Collapse in={checked}>
             <div className={classes.grow}>
-            <AppBar position="static">
+            <AppBar position="fixed">
                 <Toolbar>
                     <IconButton
                         edge="start"
